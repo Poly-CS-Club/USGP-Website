@@ -1,0 +1,499 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica, arial, verdana, sans-serif;
+	font-size: 13px;
+background-image:url(http://s3.amazonaws.com/os_extranet_images/264256_original.jpg);
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center; 
+background-size: 100% 100%;
+/*	background: #f2f2f2;       */
+// body background color
+}
+#header {
+	width: 100%;
+       position:fixed;
+
+//main header background color
+}
+#navigation {
+    width: 1100px;
+    border-radius: 5px/20px;
+    background: #333;
+    height: 40px;
+    margin: 0 auto;
+//navigation background color  font-weight: bold;
+	height: 40px;
+}
+/* Basic re-styling , does apply to some modules */
+h2 {
+	font-size: 220%;
+}
+h3 {
+	font-size: 150%;
+}
+h4 {
+	font-size: 1em;
+	font-weight: bold;
+padding:0; margin:0;
+}
+h5 {
+	font-size: 1.25em;
+font-weight:bold;
+margin:10px 0 5px 0;
+}
+hr {
+	color: #ccc;
+	background-color: #ccc;
+	border: 0px;
+	height: 1px;
+}
+/* Begin Navigation */
+#navigation ul {
+	margin: 0px;
+       margin-left: 100px;
+	padding: 0;
+	height: 26px;
+  /*opacity:1.0;
+  filter:alpha(opacity=100); */
+}
+#navigation ul li {
+	list-style-type: none;
+	float: left;
+	display: inline;
+	margin: 0px;
+}
+#navigation ul li a {
+	padding: 12px 20px;
+	display: block;
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration: none;
+	background-color: #333;
+
+}
+#navigation ul li a:hover {
+	color: #FFB310;
+	background: #333;
+}
+#navbar li ul {
+	display: none;
+	width: auto;
+}
+#navbar li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+#navbar li:hover li {
+	float: none;
+}
+#navbar li:hover li a {
+	background-color: #333;
+	width: auto;
+	padding: 10px 20px;
+	color: #FFB310;
+}
+#navbar li li a:hover {
+	background-color: #FFB310;
+	color: #333;
+}
+#navbar li ul#long {
+	display: none;
+	width: auto;
+}
+#navbar li:hover ul#long {
+	display: block;
+	position: absolute;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+#navbar li:hover li a.long:hover {
+	background-color: #FFB310;
+	color: #000;
+}
+#navbar li:hover li a.long {
+	background-color: #444;
+	color: #FFB310;
+	width: auto;
+	padding: 10px 20px;
+}
+
+
+
+/*img #solid {
+  background-color: rgba(255,255,255,1)
+}*/
+
+#opac{
+	background-color:rgba(255, 255, 255, 1);
+	width:1000px;
+	margin: 0 auto;
+       padding:0 0 10px 25px;
+}
+#opac img{
+       margin-left: 200px;
+}
+
+.width{
+	width:1000px;
+	margin: 0 auto;
+padding-bottom:10px;
+
+}
+
+
+
+/* Everything below the navigation is in the wrapper */
+#wrapper{
+	width:100%;
+	margin: 0 auto;
+	line-height: 1.5em;
+	min-height: 575px;
+/*background-color:#990033;*/
+
+}
+#wrapper .width{ 
+	background-color:rgba(255, 255, 255, 1);
+	padding: 20px;	border-left: 1px solid #cfcfcf; border-right: 1px solid #cfcfcf;
+       padding-top: 220px;
+       box-shadow: 0px 0px 50px -10px;
+}
+.content{
+	float: left;
+	width:700px;
+
+}
+
+/* Right Column */
+#wrapper #right_column{
+	float: right;
+	margin-left:10px;
+	width:200px;
+	padding: 0px 15px;
+	border-left: 1px solid #cfcfcf;
+	font-size:11px;
+}
+#right_column ul li{
+	list-style-type: none;
+	padding-left: 10px;
+}
+#right_column ul{
+	margin: 0px; padding: 0px;
+}
+
+ul#sfab {list-style-type:none; margin:0; padding:0;}
+ul#sfab a, #right_column a {color:#990033; text-decoration:none; font-size:10pt;}
+ul#sfab a:hover,??#right_column a:hover {color:#990033; text-decoration:underline; font-size:10pt;}
+ul#sfab a:visited, #right_column a:visited {color:#990033; text-decoration:none; font-size:10pt;}
+
+/* Login Button */
+#login{
+	float: right;
+        min-height: 50px;
+}
+#login a{
+	color: #fff;
+	text-decoration: none;
+        font-weight: bold;
+}
+#login a:hover{
+        color: #f4f4f4;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+/* Restyling of certain OrgSync Modules, 
+     the rest of the modules are restyled in OrgSync_Defaults, a file included in the default
+     meta/head section. You can always over-right any of those css declarations in this file if you would   like to further customize the look of the modules. */
+
+#calendar_controls a{
+	background: #f4f4f4;
+	padding: 0 10px;
+}
+#calendar_controls a{
+	background: #f4f4f4;
+	padding: 0 10px;
+}
+.icon_window{
+	background: #f4f4f4;
+	padding: 0 10px;
+}
+.form_new_submission a{
+	background: #f4f4f4;
+	border:1px solid #ccc;
+	padding: 10px 0;
+}
+.pod-header{
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+}
+.even-row td{
+background: #f4f4f4;
+}
+
+#contact .pod-body textarea{
+width:400px;
+}
+
+.picture-box{
+	padding: 8px 0;
+}
+.picture-box img{
+	border: 0px;
+	height: 75px;
+}
+.album_pic_prev_image_link{
+	border: 0px;
+}
+.album_pic_next_image_link{
+	border:0px;
+}
+input, label, select, textarea{
+  float: left;
+  padding:3px;
+  margin:3px;
+  font-size:14px;
+}
+
+/* News Module RSS Feed */
+.rss_feed{
+font-size: 11px;
+}
+
+.list ul li {
+width: 350px;
+color:maroon;
+list-style-type: none;
+margin-left: -25px;
+border-bottom: 1px solid #999;
+padding: 5px;
+}
+
+.list ul li:hover{
+background-color:#FFB310;
+color:black;
+border-radius: 0px 10px 0px 0px;
+text-decoration:none;
+}
+
+.list a:hover{
+text-decoration:none;
+}
+
+/* Footer */
+#footer{
+width: 1100px;
+height: 300px;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 20px;
+padding-top: 10px;
+box-shadow: 0px 0px 50px -10px;
+border-radius: 10px/120px;
+background-color: rgba(51,51,51,1);
+}
+.footercolumn {
+width: 230px;
+color:white;
+float:left;
+text-align:center;
+margin:10px;
+}
+.footercolumn ul {
+text-align: left;
+}
+.footercolumn ul li{
+list-style-type: none;
+border-bottom: 1px solid #555;
+margin-left: -25px;
+padding: 5px;
+width: 200px;
+}
+.footercolumn ul li:hover{
+background-color:#FFB310;
+color:black;
+border-radius: 0px 10px 0px 0px;
+}
+.footercolumn h4{
+color: #FFF;
+text-align:center;
+}
+#footerimage{
+position: absolute;
+z-index: 0;
+opacity: 0.1;
+}
+ul#navbarfooter {margin:0 0 20px 5px; padding:0; height:30px;	color: #FFB310; text-align:center;}
+ul#navbarfooter li.footlink {	list-style-type: none;
+	float: left;
+	display: inline; text-align:center;
+	margin: 0px;}
+
+ul#navbarfooter li.footlink a {
+	padding: 0px 7px 0 9px; text-align:center;
+	font-size: 1.1em;
+	color: #FFF;
+	text-decoration: none;
+}
+ul#navbarfooter li.footlink a:hover {
+	color: #FFB310;
+	text-decoration: underline;
+}
+/* Separate link styling for the navigation in the footer */
+#footer a{
+font-size:12px;
+color:#FFB310;
+text-decoration: none;
+}
+#footer a:hover{
+}
+
+/* Specific styles for the About OrgSync Page */
+#about_orgsync h2{
+color: #007dad;
+font-size: 24px;
+font-family: helvetica, verdana, arial, sans-serif; }
+
+
+table, tr, td {text-align:center;}
+td {width:25%;}
+td {margin-bottom:125px;}
+
+table tr td p {margin:0; padding:0;}
+
+div.left {width:275px; float:left; height:325px;}
+div.right {width:400px; float:left; height:325px;}
+div.full {width:675px; float:left; height:250px;}
+
+div.leftsfab {width:225px; float:left; height:175px;}
+div.rightsfab {float:left; height:175px;}
+div.fullsfab {width:675px; float:left; height:270px; margin-top:20px;}
+
+p#faq {padding:0; margin:5px 0 15px 0;}
+p.faq {padding:0 0 10px 0; margin:5px 0 15px 0;}
+ol.methods {padding-bottom:10px;}
+
+a.minutes {color:#333; text-decoration:underline;}
+a.minutes:visited {color:#333; text-decoration:underline;}
+
+
+
+p.copyright {
+color:#FFF;
+}
+
+#goldsection {
+    box-shadow: 0px 5px 5px -3px #000;
+    border-radius: 0px 25px 0px 25px;
+    background: #FFB310;
+    color: #990033;
+    padding: 20px; 
+    margin: 5px;
+    width: 47%;
+    float:left;
+}
+
+#section {
+    width:100%;
+}
+
+.downloadbutton {
+height: 50px;
+width: 150px;
+box-shadow: 0px 5px 5px -2px #000;
+opacity: 0.75;
+}
+
+.downloadbutton:hover {
+opacity: 1.0;
+}
+
+.fullbutton {
+    width:100%;
+    background: #82a941;
+    border: 1px solid #ddd;
+    color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 9px 25px;
+    position: relative;
+    text-align:center; 
+}
+.fullbutton:hover {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #666;
+    box-shadow: 0px 0px 2px 0px #888888;
+}
+<!-- Smartboard CSS Starts Here -->
+
+#smartboardcontent {
+width:100%;
+height: 1000px;
+}
+
+.carousel {
+    position: relative;
+    width: 1640px;
+    height: 1000px;
+}
+#carousel-left{
+background:none;
+margin-left: -300px;
+}
+#carousel-right{
+background:none;
+margin-right: -300px;
+}
+.carousel-inner {
+    width: 1640px;
+    margin: 0 auto;
+}
+#pageleft{
+float:left;
+width:50%;
+}
+#calender {
+margin-bottom: -5px;
+}
+#placeholder1 {
+width:50%;
+height:400px;
+float:left;
+}
+#placeholder2 {
+width: 50%;
+height:400px;
+float:left;
+}
+#pageright{
+float:right;
+width:50%;
+}
+#website {
+background: url(http://s3.amazonaws.com/os_extranet_images/264256_original.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+border: 1px solid #000;
+}
+#placeholder3 {
+width:100%;
+height:225px;
+background:white;
+border:1px solid black;
+}
+#placeholder4 {
+width: 100%;
+height:225px;
+background:white;
+border:1px solid black
+}
