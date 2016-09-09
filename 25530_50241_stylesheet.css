@@ -12,19 +12,18 @@ background-size: 100% 100%;
 // body background color
 }
 #header {
-	width: 100%;
        position:fixed;
 
 //main header background color
 }
 #navigation {
-    width: 1100px;
+    width: 1000px;
     border-radius: 5px/20px;
-    background: #333;
+    background: #8C1D40;
     height: 40px;
     margin: 0 auto;
 //navigation background color  font-weight: bold;
-	height: 40px;
+	height: 45px;
 }
 /* Basic re-styling , does apply to some modules */
 h2 {
@@ -70,12 +69,12 @@ hr {
 	font-size: 1.1em;
 	color: #fff;
 	text-decoration: none;
-	background-color: #333;
+	background-color: #8C1D40;
 
 }
 #navigation ul li a:hover {
 	color: #FFB310;
-	background: #333;
+	background: #8C1D40;
 }
 #navbar li ul {
 	display: none;
@@ -91,14 +90,14 @@ hr {
 	float: none;
 }
 #navbar li:hover li a {
-	background-color: #333;
+	background-color: #8C1D40;
 	width: auto;
 	padding: 10px 20px;
 	color: #FFB310;
 }
 #navbar li li a:hover {
 	background-color: #FFB310;
-	color: #333;
+	color: #8C1D40;
 }
 #navbar li ul#long {
 	display: none;
@@ -377,8 +376,8 @@ p#faq {padding:0; margin:5px 0 15px 0;}
 p.faq {padding:0 0 10px 0; margin:5px 0 15px 0;}
 ol.methods {padding-bottom:10px;}
 
-a.minutes {color:#333; text-decoration:underline;}
-a.minutes:visited {color:#333; text-decoration:underline;}
+a.minutes {color:#8C1D40; text-decoration:underline;}
+a.minutes:visited {color:#8C1D40; text-decoration:underline;}
 
 
 
