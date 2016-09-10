@@ -498,3 +498,17 @@ height:225px;
 background:white;
 border:1px solid black
 }
+
+/* Feedback Form Styles */
+label {
+  display:inline-block;
+  width: 7em;
+}
+
+input {
+  width: 15em
+}
+
+#submit {
+  width: 5em;
+}
